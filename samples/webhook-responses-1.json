@@ -1,0 +1,31 @@
+{
+  "detectIntentResponseId": "f354554c-614e-4c1c-8bcb-8ab548da990b",
+  "intentInfo": {
+    "lastMatchedIntent": "projects/holy-diver-297719/locations/us-central1/agents/0a84ae31-76c7-4f4e-8ee9-01bf5a8dd063/intents/00000000-0000-0000-0000-000000000000",
+    "displayName": "Default Welcome Intent",
+    "confidence": 1.0
+  },
+  "pageInfo": {
+    "currentPage": "projects/holy-diver-297719/locations/us-central1/agents/0a84ae31-76c7-4f4e-8ee9-01bf5a8dd063/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+    "displayName": "Start Page"
+  },
+  "sessionInfo": {
+    "session": "projects/holy-diver-297719/locations/us-central1/agents/0a84ae31-76c7-4f4e-8ee9-01bf5a8dd063/sessions/38f72e-a22-bd2-ae5-b480824cb",
+    "parameters": {
+      "message": "Hello World!"
+    }
+  },
+  "fulfillmentInfo": {
+    "tag": "testing"
+  },
+  "messages": [{
+    "text": {
+      "text": ["Good day! What can I do for you today?"],
+      "redactedText": ["Good day! What can I do for you today?"]
+    },
+    "responseType": "HANDLER_PROMPT",
+    "source": "VIRTUAL_AGENT"
+  }],
+  "text": "hi",
+  "languageCode": "en"
+}
