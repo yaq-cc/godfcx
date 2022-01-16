@@ -113,6 +113,7 @@ func TestRegisterAddedTemplates(t *testing.T) {
 		t.Log(ep, " ~ ", tmp)
 	}
 
+	// Adding a comment
 	regErr := rtd.Register(ctx, client)
 	if regErr != nil {
 		t.Log(regErr)
